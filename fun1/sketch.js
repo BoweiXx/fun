@@ -137,7 +137,7 @@ function draw() {
   background(0, 10);
   vnumber = 3;
   let t1 = millis() / 1000;
-  let t2 = millis() % 9000;
+  let t2 = millis() % 2000;
   noStroke();
   beginShape();
   fill(255, 100);
